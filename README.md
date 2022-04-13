@@ -12,3 +12,12 @@ Ex: Cat *is-a* Mammal, Dog *is-a* Mammal
 
 **Composition(has-a)** — Composition means that an object is built from other objects.
 Ex: a computer *has-a* video card, *has-a* keyboard, and *has-a* disk drive
+
+# How to Think in Terms of Objects
+
+- Knowing the Difference Between the Interface and the Implementation
+- Using Abstract Thinking When Designing Interfaces
+    - Who are users of this object,
+    - What functionality they require?
+- Providing the Absolute Minimal User Interface Possible
+    - Starting with no methods is better than providing more methods to user
