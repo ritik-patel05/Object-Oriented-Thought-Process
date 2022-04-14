@@ -21,3 +21,23 @@ Ex: a computer *has-a* video card, *has-a* keyboard, and *has-a* disk drive
     - What functionality they require?
 - Providing the Absolute Minimal User Interface Possible
     - Starting with no methods is better than providing more methods to user
+
+# More Object Oriented Concepts
+
+- Constructors
+    - When they are called? -> When a new object is created.
+    - Job:
+        - To initialize the memory
+        - To call the constructor of its superclass.
+    - If no constructor explicitly mentioned, default constructor is always exists
+    - Atleast one constructor always exists
+- Multiple objects can be instantiated from a single class
+- Each of these objects has a **unique** *identity* and *state*
+- Methods: Represent *behaviours* of an object
+- Attributes: Represent *state* of an object
+- Operator Overloading
+- Multiple Inheritance
+- Object Operations:
+    - Not easy to compare and copy an object.
+    - Deep Copy: Must follow all references and create a new copy of all of them.
+    - Class should have its own comparision method to compare itself.
