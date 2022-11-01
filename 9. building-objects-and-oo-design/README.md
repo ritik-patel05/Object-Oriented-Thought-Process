@@ -25,6 +25,7 @@ To determine cardinality, answer this questions.
 3. Is the collaboration optional or mandatory?
 
 ## Cardinality of Class associations
+
 Optional/Association - Cardinality - Mandatory
 Employee/Division - 1 - Mand.
 Employee/JobDescription - 1..n - Mand.
@@ -37,5 +38,6 @@ The notation of 0 . . 1 means that an employee can have either zero or one spous
 - Note that the classes that have a one-to-many relationship are represented by arrays in the code.
 
 ### Optional Associations
+
 - One of the most important issues when dealing with associations is to make sure that your application is designed to check for optional associations. This means that your code must check to see whether the association is null.
 - For example, if no spouse exists, the code must not attempt to invoke a spouse behavior. This could lead to an application failure. Thus, the code must be able to process an Employee object that has no spouse.
