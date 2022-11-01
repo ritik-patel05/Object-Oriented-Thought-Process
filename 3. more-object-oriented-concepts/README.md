@@ -1,0 +1,26 @@
+# more-object-oriented-concepts
+
+- Constructors
+  - When they are called? -> When a new object is created.
+  - Job:
+    - To initialize the memory
+    - To call the constructor of its superclass.
+  - If no constructor explicitly mentioned, default constructor always exists
+  - Atleast one constructor always exists
+- Multiple objects can be instantiated from a single class
+- Each of these objects has a **unique** *identity* and *state*
+- Methods: Represent *behaviours* of an object
+- Attributes: Represent *state* of an object
+- Operator Overloading
+  - Enables us to change the meaning of an operator
+  - Ex: + sign for strings can be overloaded to perform string concatenation
+  - Ex: + for matrix, can perform matrix addition.
+  - Be careful with it, it can be confusing. So document the logic so that people maintaining the code understand what is happening.
+- Multiple Inheritance
+  - To inherit from more than one class
+  - It is a powerful technique, and some problems are difficult to solve w/o it.
+  - In C++ we can, but not in Java, .NET, Swift(Bec. its complexity far outweighed its advantages)
+- Object Operations:
+  - Not easy to compare and copy an object.
+  - Deep Copy: Must follow all references and create a new copy of all of them.
+  - Class should have its own comparision method to compare itself.
